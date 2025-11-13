@@ -1,0 +1,22 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+data = {
+    "Category": ["Electronics", "Clothing", "Groceries", "Electronics", "Clothing", "Groceries"],
+    "Sales": [1200, 800, 1500, 1700, 900, 1300]
+}
+
+df = pd.DataFrame(data)
+
+total_sales = df.groupby("Category")["Sales"].sum()
+
+total_sales.plot(kind="bar", color="skyblue", title="Total Sales by Product Category")
+
+plt.xlabel("Product Category")
+plt.ylabel("Total Sales")
+plt.tight_layout()
+plt.show()
+
+Ex–8: DataFrame Plotting
+
+Sales data for different product categories is organized in a DataFrame. The total sales per category are calculated and displayed using a bar chart. This exercise introduces data aggregation and visualization using Matplotlib and Pandas.
