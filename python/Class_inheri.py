@@ -18,7 +18,7 @@ car1.display_info()
 	
 
 synopses:
-ex–9: oop – class and inheritance
+exâ€“9: oop â€“ class and inheritance
 a base class vehicle is created with attributes for make and model. a subclass car extends it by adding a new attribute, num_doors, and a method to display all details. this exercise demonstrates the concept of inheritance and object-oriented programming.
 .
 
