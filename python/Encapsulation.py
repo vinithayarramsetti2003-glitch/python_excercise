@@ -28,6 +28,6 @@ print("Current Balance:", account.get_balance())
 
 synopses:
 
-Ex–10: oop – encapsulation and methods
+Exâ€“10: oop â€“ encapsulation and methods
 a bankaccount class is implemented with a private balance attribute. it includes methods for depositing and withdrawing funds while preventing negative balances. a separate method allows checking the current balance. this task demonstrates encapsulation and data protection in oop.
 
